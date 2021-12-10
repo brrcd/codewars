@@ -2,7 +2,12 @@ import java.math.BigInteger
 
 fun main(args: Array<String>) {
 
-    val twoToOne7kyu = TwoToOne7kyu()
+    val bb = BouncingBall6kyu()
 
-    print(twoToOne7kyu.longest("aretheyhere", "yestheyarehere"))
+    val br = bb.bouncingBall(3.0, 0.66, 1.5)
+
+    println(br)
+    val bd = bb.bouncingBall(30.0, 0.66, 1.5)
+
+    print(bd)
 }
